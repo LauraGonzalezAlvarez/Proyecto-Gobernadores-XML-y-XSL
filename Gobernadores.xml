@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="Gobernadores.xsl" ?>
+<!-- 
+
+ -->
+
+<Votaciones>
+	<Votantes>
+		<Departamentos>Cundinamarca</Departamentos>
+		<Inscritos>600</Inscritos>
+		<Partido1>100</Partido1>
+		<Partido2>120</Partido2>
+		<Partido3>180</Partido3>
+		<Blanco>200</Blanco>
+	</Votantes>
+    <Votantes>
+		<Departamentos>Antioquia</Departamentos>
+		<Inscritos>900</Inscritos>
+		<Partido1>300</Partido1>
+		<Partido2>110</Partido2>
+		<Partido3>120</Partido3>
+		<Blanco>180</Blanco>
+	</Votantes>
+    <Votantes>
+		<Departamentos>Valle</Departamentos>
+		<Inscritos>890</Inscritos>
+		<Partido1>130</Partido1>
+		<Partido2>200</Partido2>
+		<Partido3>380</Partido3>
+		<Blanco>130</Blanco>
+	</Votantes>
+    <Votantes>
+		<Departamentos>Arauca</Departamentos>
+		<Inscritos>690</Inscritos>
+		<Partido1>140</Partido1>
+		<Partido2>108</Partido2>
+		<Partido3>130</Partido3>
+		<Blanco>120</Blanco>
+	</Votantes>
+    <Votantes>
+		<Departamentos>Atlantico</Departamentos>
+		<Inscritos>790</Inscritos>
+		<Partido1>110</Partido1>
+		<Partido2>112</Partido2>
+		<Partido3>180</Partido3>
+		<Blanco>105</Blanco>
+	</Votantes>
+	
+</Votaciones>
