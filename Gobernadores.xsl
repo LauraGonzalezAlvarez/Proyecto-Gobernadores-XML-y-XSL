@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  
 <xsl:output method="html"/>    
 <xsl:template match="/">
   <html>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong"></link>
   <body>
-    <h1>Votaciones departamentales</h1>
-    <p>A continuación se muestra toda la tabla.</p>
-    <table border="1">
+      <style>
+body {
+
+font-family: "Trirong", serif;
+background: #FDEBD0
+}
+</style>
+
+      <center> 
+    <h1>Votaciones Departamentales</h1>
+    <p>A continuacion se muestra toda la tabla.</p>
+    <table  bgcolor="#FEF5E7" style="text-align:center">
 	
-      <tr bgcolor="#CD5C5C">
+      <tr bgcolor="#EDBB99"  >
         <th>Departamentos</th>
         <th>Inscritos</th>
         <th>Partido1</th>
@@ -28,7 +39,8 @@
 	
       </tr>
 	</xsl:for-each >
-    </table> 
+    </table>
+    </center> 
   </body>
   </html>
 </xsl:template>
