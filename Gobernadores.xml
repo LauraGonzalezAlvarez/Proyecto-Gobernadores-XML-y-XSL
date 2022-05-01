@@ -1,46 +1,47 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet type="html/xsl" href="Gobernadores.xsl" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Gobernadores.xsl" ?>
 <!--  -->
 <Votaciones>
 	<Votantes>
-		<Departamentos>Cundinamarca</Departamentos>
-		<Inscritos>600</Inscritos>
-		<Partido1>100</Partido1>
-		<Partido2>120</Partido2>
-		<Partido3>180</Partido3>
-		<Blanco>200</Blanco>
+		<Votante type = "cundinamarca">
+			<!--<Departamentos>Cundinamarca</Departamentos>-->
+					<li year = "inscritos" value="600" col="1">600</li>
+					<li year = "partido1"  value="0" col="2">100</li>
+					<li year = "partido2"  value="120" col="3">120</li>
+					<li year = "partido3"  value="180" col="4">180</li>
+					<li year = "blanco"    value="200" col="5">200</li>
+		</Votante>
+		<Votante type = "antioquia">
+			<!--<Departamentos>Antioquia</Departamentos>-->
+					<li year = "inscritos" value="0" col="1">900</li>
+					<li year = "partido1"  value="300" col="2">300</li>
+					<li year = "partido2"  value="110" col="3">110</li>
+					<li year = "partido3"  value="120" col="4">120</li>
+					<li year = "blanco"    value="180" col="5">180</li>
+		</Votante>
+		<Votante type = "valle">
+					<!--<Departamentos>Valle</Departamentos>-->
+					<li year = "inscritos" value="0" col="1">890</li>
+					<li year = "partido1"  value="130" col="2">130</li>
+					<li year = "partido2"  value="200" col="3">200</li>
+					<li year = "partido3"  value="300" col="4">300</li>
+					<li year = "blanco"    value="130" col="5">130</li>
+		</Votante>
+		<Votante type="arauca">
+			<!--<Departamentos>Arauca</Departamentos>-->
+					<li year = "inscritos" value="0" col="1">690</li>
+					<li year = "partido1"  value="140" col="2">140</li>
+					<li year = "partido2"  value="108" col="3">108</li>
+					<li year = "partido3"  value="130" col="4">130</li>
+					<li year = "blanco"    value="120" col="5">120</li>
+		</Votante>
+		<Votante type = "atlantico" >
+			<!--<Departamentos>Atlantico</Departamentos>-->
+					<li year = "inscritos" value="0" col="1">790</li>
+					<li year = "partido1"  value="110" col="2">110</li>
+					<li year = "partido2"  value="112" col="3">112</li>
+					<li year = "partido3"  value="180" col="4">180</li>
+					<li year = "blanco"    value="105" col="5">105</li>
+		</Votante>
 	</Votantes>
-    <Votantes>
-		<Departamentos>Antioquia</Departamentos>
-		<Inscritos>900</Inscritos>
-		<Partido1>300</Partido1>
-		<Partido2>110</Partido2>
-		<Partido3>120</Partido3>
-		<Blanco>180</Blanco>
-	</Votantes>
-    <Votantes>
-		<Departamentos>Valle</Departamentos>
-		<Inscritos>890</Inscritos>
-		<Partido1>130</Partido1>
-		<Partido2>200</Partido2>
-		<Partido3>380</Partido3>
-		<Blanco>130</Blanco>
-	</Votantes>
-    <Votantes>
-		<Departamentos>Arauca</Departamentos>
-		<Inscritos>690</Inscritos>
-		<Partido1>140</Partido1>
-		<Partido2>108</Partido2>
-		<Partido3>130</Partido3>
-		<Blanco>120</Blanco>
-	</Votantes>
-    <Votantes>
-		<Departamentos>Atlantico</Departamentos>
-		<Inscritos>790</Inscritos>
-		<Partido1>110</Partido1>
-		<Partido2>112</Partido2>
-		<Partido3>180</Partido3>
-		<Blanco>105</Blanco>
-	</Votantes>
-	
 </Votaciones>
